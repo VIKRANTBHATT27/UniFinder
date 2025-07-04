@@ -63,8 +63,9 @@ async function dataFetchingFunc () {
 
      let url = "http://universities.hipolabs.com/search?name=";
      let cName = input.value;
+     let fullUrl = url + cName;
 
-     let result = await fetch(url+cName);
+     let result = await fetch(fullUrl);
      // console.log(result);
      let freshFormat = await result.json();
      // console.log(freshFormat);
