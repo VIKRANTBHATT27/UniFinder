@@ -61,7 +61,7 @@ let btn = document.querySelector("#searchIcon");
 async function dataFetchingFunc () {
      // console.log(input.value);
 
-     let url = "http://universities.hipolabs.com/search?name=";
+     let url = "https://cors-anywhere.herokuapp.com/http://universities.hipolabs.com/search?name=";
      let cName = input.value;
 
      let result = await fetch(url+cName);
