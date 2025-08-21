@@ -98,7 +98,7 @@ label svg.moon {
 
 .frontPage {
      height: 90vh;
-     width: 98vw;
+     width: 100%;
 
      background: linear-gradient(90deg, #a6a6a6, hsl(0, 0%, 100%));
 }
